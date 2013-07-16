@@ -14,6 +14,12 @@ html
     = render_cell :nav ,:slide_left
     .container-fluid
       .row-fluid
+        - unless notice.blank?
+          p class="notice"
+            = notice 
+        - unless alert.blank?
+          p class="alert"
+            = alert 
         = yield
         /= render "common/footer"  
     = render_cell :nav ,:slide_right
