@@ -1,0 +1,12 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 04:40:54 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (17.3ms)
+Completed 200 OK in 102ms (Views: 67.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 04:40:56 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
