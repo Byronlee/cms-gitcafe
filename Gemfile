@@ -8,7 +8,7 @@ gem 'slim-rails'
 
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder'
+#gem 'jbuilder'
 
 group :test do
   gem 'turn', :require => false
