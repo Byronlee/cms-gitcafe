@@ -1,0 +1,30 @@
+doctype 5
+html
+  head
+    meta charset="UTF-8"
+    meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+    link rel="shortcut icon" href="assets/favicon.png" 
+    /title = t("system_name")  
+    title 信息发布系统
+    meta name="author" content="Byronlee"
+    = stylesheet_link_tag  :application , :recursive => true
+    = javascript_include_tag :application , :recursive => true
+    = csrf_meta_tags
+  body
+    .navbar-inverse.navbar.navbar-fixed-top
+      .navbar-inner
+        ul.nav
+          li.active
+            a.brand 信息发布系统
+          li
+            a href="#about" data-toggle="modal" 关于
+          li
+            a#feedback 反馈
+          /- if user_signed_in?
+            li
+              a href=logout_path 退出
+        p.navbar-text.pull-right 
+    .container-fluid
+      .row-fluid
+        = yield
+      /= render "common/footer"  
