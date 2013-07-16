@@ -2,3 +2,8 @@
  *= require_self
  *= require_tree .
  */
+
+
+body{
+    background-image: url('/assets/bg.png');
+}

@@ -11,17 +11,10 @@ html
     = javascript_include_tag :application , :recursive => true
     = csrf_meta_tags
   body
-    .navbar-inverse.navbar.navbar-fixed-top
-      .navbar-inner
-        .container
-          ul.nav
-            li.active
-              a.brand 信息发布系统
-            li
-              a href="#about" data-toggle="modal" 关于
-            li
-              a#feedback 反馈
+    = render_cell :nav ,:slide_left
     .container-fluid
       .row-fluid
         = yield
-      /= render "common/footer"  
+        /= render "common/footer"  
+    = render_cell :nav ,:slide_right
+    .navbar-inverse.navbar.navbar-fixed-top
