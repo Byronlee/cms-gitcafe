@@ -1,28 +1,26 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 一个简易的信息发布系统
 
-Things you may want to cover:
+一个简易的信息发布系统
 
-* Ruby version
+# 环境要求：
 
-* System dependencies
+* mongodb
+* linux or mac ox
+* ruby 2.0.0 & rails 4.0.0
 
-* Configuration
+# 安装
 
-* Database creation
+克隆代码到本地：
 
-* Database initialization
+`git clone https://github.com/zhiyisoft/ccde-stmis.git`
 
-* How to run the test suite
+进入项目根目录：
 
-* Services (job queues, cache servers, search engines, etc.)
+`cd lbyronlee`
 
-* Deployment instructions
+安装依赖包：
+`bundle install`
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+启动项目
+`rails s`
