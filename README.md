@@ -13,7 +13,7 @@
 
 克隆代码到本地：
 
-`git clone https://github.com/zhiyisoft/ccde-stmis.git`
+`git clone git@gitcafe.com:ranmocy/lbyronlee.git`
 
 进入项目根目录：
 
