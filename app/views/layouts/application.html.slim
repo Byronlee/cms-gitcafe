@@ -13,17 +13,14 @@ html
   body
     .navbar-inverse.navbar.navbar-fixed-top
       .navbar-inner
-        ul.nav
-          li.active
-            a.brand 信息发布系统
-          li
-            a href="#about" data-toggle="modal" 关于
-          li
-            a#feedback 反馈
-          /- if user_signed_in?
+        .container
+          ul.nav
+            li.active
+              a.brand 信息发布系统
             li
-              a href=logout_path 退出
-        p.navbar-text.pull-right 
+              a href="#about" data-toggle="modal" 关于
+            li
+              a#feedback 反馈
     .container-fluid
       .row-fluid
         = yield

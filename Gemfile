@@ -4,10 +4,6 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem "mongoid", 	github: 'mongoid/mongoid'
 gem "bson_ext"
-gem 'slim-rails'
-
-gem 'jquery-rails'
-gem 'turbolinks'
 #gem 'jbuilder'
 
 group :test do
@@ -28,14 +24,18 @@ group :development do
   gem "debugger"
 end
 
-group :assets do
+#group :assets do
   gem 'coffee-rails'
   gem 'railties'
   gem "less-rails" 
   gem 'therubyracer'
   gem 'uglifier'
   gem 'twitter-bootstrap-rails'
-end
+  gem 'font-awesome-rails', "~> 3.2.1.1"
+  gem 'slim-rails'		
+  gem 'jquery-rails'
+  gem 'turbolinks'
+#end
 
 #gem 'will_paginate'
 #gem 'will_paginate-bootstrap'

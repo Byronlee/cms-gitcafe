@@ -10,3 +10,2425 @@ Started GET "/" for 127.0.0.1 at 2013-07-16 04:40:56 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
 Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:09:49 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 54ms (Views: 35.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:11:18 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.6172ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.5121ms)
+  Rendered posts/index.html.slim within layouts/application (127.7ms)
+Completed 500 Internal Server Error in 420ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    2: <html>
+    3: <head>
+    4:   <title>Lbyronlee</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3373853062439220318_69846605472580'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:14:59 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8669ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2270ms)
+  Rendered posts/index.html.slim within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    2: <html>
+    3: <head>
+    4:   <title>Lbyronlee</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3373853062439220318_69846605472580'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (56.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (68.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:16:39 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9642ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3178ms)
+  Rendered posts/index.html.slim within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    2: <html>
+    3: <head>
+    4:   <title>Lbyronlee</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3373853062439220318_69846605472580'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:18:38 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8993ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2918ms)
+  Rendered posts/index.html.slim within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Unknown line indicator
+  /home/simlegate/lbyronlee/app/views/layouts/application.html.slim, Line 1, Column 0
+    !DOCTYPE html
+    ^
+):
+  slim (2.0.0) lib/slim/parser.rb:475:in `syntax_error!'
+  slim (2.0.0) lib/slim/parser.rb:228:in `parse_line_indicators'
+  slim (2.0.0) lib/slim/parser.rb:174:in `parse_line'
+  slim (2.0.0) lib/slim/parser.rb:67:in `call'
+  temple (0.6.5) lib/temple/engine.rb:50:in `block in call'
+  temple (0.6.5) lib/temple/engine.rb:50:in `each'
+  temple (0.6.5) lib/temple/engine.rb:50:in `inject'
+  temple (0.6.5) lib/temple/engine.rb:50:in `call'
+  temple (0.6.5) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.6.5) lib/temple/templates/rails.rb:34:in `call'
+  actionpack (4.0.0) lib/action_view/template.rb:272:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__685370392979444871__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `block in call'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/mongoid/unit_of_work.rb:39:in `unit_of_work'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1977571719127336382__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:19:44 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8659ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2661ms)
+  Rendered posts/index.html.slim within layouts/application (2.7ms)
+ERROR: compiling _app_views_layouts_application_html_slim__3560706131666429311_69846608446900 RAISED /home/simlegate/lbyronlee/app/views/layouts/application.html.slim:7: syntax error, unexpected '='
+= csrf_meta_tags))).to_s)); 
+ ^
+Function body:           def _app_views_layouts_application_html_slim__3560706131666429311_69846608446900(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActiveSupport::SafeBuffer.new; @output_buffer.safe_concat(("<!DOCTYPE html><html><head></head><title>简易的信息发布</title>")); 
+; 
+; 
+; 
+; @output_buffer.safe_concat(((::Temple::Utils.escape_html_safe((stylesheet_link_tag    "application", media: "all"))).to_s)); 
+; @output_buffer.safe_concat(((::Temple::Utils.escape_html_safe((javascript_include_tag "application",
+= csrf_meta_tags))).to_s)); 
+; @output_buffer.safe_concat(("<body>")); 
+; @output_buffer.safe_concat(((::Temple::Utils.escape_html_safe((yield))).to_s)); 
+; @output_buffer.safe_concat(("</body></html>")); @output_buffer
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__685370392979444871__process_action__callbacks'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `block in call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/mongoid/unit_of_work.rb:39:in `unit_of_work'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1977571719127336382__call__callbacks'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+Completed 500 Internal Server Error in 16257ms
+
+ActionView::Template::Error (/home/simlegate/lbyronlee/app/views/layouts/application.html.slim:7: syntax error, unexpected '='
+= csrf_meta_tags))).to_s)); 
+ ^):
+    4:   title 简易的信息发布
+    5:   = stylesheet_link_tag    "application", media: "all"
+    6:   = javascript_include_tag "application", 
+    7:   = csrf_meta_tags
+    8:   body
+    9:     = yield
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:413:in `_run__685370392979444871__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `block in call'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/mongoid/unit_of_work.rb:39:in `unit_of_work'
+  /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/bundler/gems/mongoid-cb541fa1fd7c/lib/rack/mongoid/middleware/identity_map.rb:34:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1977571719127336382__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:23:55 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8516ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2367ms)
+  Rendered posts/index.html.slim within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:29:01 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8128ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2229ms)
+  Rendered posts/index.html.slim within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:29:38 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9453ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2618ms)
+  Rendered posts/index.html.slim within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:29:52 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3853ms)
+  Rendered posts/index.html.slim within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error ('twitter/bootstrap/responsive.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (83.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:30:06 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3755ms)
+  Rendered posts/index.html.slim within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error ('fontawesome/font-awesome.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:30:15 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4146ms)
+  Rendered posts/index.html.slim within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:31:12 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9222ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2134ms)
+  Rendered posts/index.html.slim within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:31:13 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4523ms)
+  Rendered posts/index.html.slim within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:31:15 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4122ms)
+  Rendered posts/index.html.slim within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:38:00 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9348ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2759ms)
+  Rendered posts/index.html.slim within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:39:14 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8647ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2236ms)
+  Rendered posts/index.html.slim within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:39:15 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4728ms)
+  Rendered posts/index.html.slim within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:42:54 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9544ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2928ms)
+  Rendered posts/index.html.slim within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:42:56 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4921ms)
+  Rendered posts/index.html.slim within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/simlegate/lbyronlee/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+     7:     /title = t("system_name")  
+     8:     title 信息发布系统
+     9:     meta name="author" content="Byronlee"
+    10:     = stylesheet_link_tag  :application , :recursive => true
+    11:     = javascript_include_tag :application , :recursive => true
+    12:     = csrf_meta_tags
+    13:   body
+  app/views/layouts/application.html.slim:10:in `_app_views_layouts_application_html_slim__3560706131666429311_69846609656220'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:43:19 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.2150ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3388ms)
+  Rendered posts/index.html.slim within layouts/application (76.5ms)
+Completed 200 OK in 2373ms (Views: 2319.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:43:22 +0000
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:43:23 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:43:25 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9780ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3657ms)
+  Rendered posts/index.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:46:57 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7198ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2375ms)
+  Rendered posts/index.html.slim within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 21.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:46:57 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:46:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:46:57 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0216ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2844ms)
+  Rendered posts/index.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:47:53 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:47:54 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0149ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3741ms)
+  Rendered posts/index.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:10 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0388ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3562ms)
+  Rendered posts/index.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:12 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:48:24 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.2174ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2236ms)
+  Rendered posts/index.html.slim within layouts/application (21.6ms)
+Completed 200 OK in 313ms (Views: 260.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:48:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:48:36 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 06:49:23 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0190ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2406ms)
+  Rendered posts/index.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 1142ms (Views: 1140.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:24 +0000
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-07-16 06:49:35 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.slim (156.6ms)
+  Rendered posts/new.html.slim within layouts/application (201.6ms)
+Completed 200 OK in 221ms (Views: 219.8ms)
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:49:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.1ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-07-16 06:49:54 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IgMkSHo5AGchAdRRgB3jEDutb5UcWUi/JWJkVVCUcH8=", "post"=>{"name"=>"我的热水", "title"=>"就是这样的", "content"=>"内容很简单"}, "commit"=>"Save"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0500ms)
+  MOPED: 127.0.0.1:27017 INSERT       database=lbyronlee_news_development collection=posts documents=[{"_id"=>"51e4ed121229bcc61c000001", "name"=>"我的热水", "title"=>"就是这样的", "content"=>"内容很简单"}] flags=[] (0.1490ms)
+Redirected to http://localhost:3000/posts/51e4ed121229bcc61c000001
+Completed 302 Found in 25ms
+
+
+Started GET "/posts/51e4ed121229bcc61c000001" for 127.0.0.1 at 2013-07-16 06:49:54 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"51e4ed121229bcc61c000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={"_id"=>"51e4ed121229bcc61c000001"} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (592.1288ms)
+  Rendered posts/show.html.slim within layouts/application (4.8ms)
+Completed 200 OK in 611ms (Views: 16.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:49:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.1ms)
+
+
+Started GET "/posts/51e4ed121229bcc61c000001" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"51e4ed121229bcc61c000001"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9222ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={"_id"=>"51e4ed121229bcc61c000001"} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3014ms)
+  Rendered posts/show.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 13.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:50:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.4ms)
+
+
+Started GET "/posts/51e4ed121229bcc61c000001" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"51e4ed121229bcc61c000001"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.3857ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={"_id"=>"51e4ed121229bcc61c000001"} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4957ms)
+  Rendered posts/show.html.slim within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 16.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:50:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:50:05 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.6979ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_70110512033340 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (8.4ms)
+Completed 200 OK in 20ms (Views: 18.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4392ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_34309700 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 14.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:10 +0000
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-07-16 06:50:12 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.slim (2.9ms)
+  Rendered posts/new.html.slim within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 14.6ms)
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:50:12 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IgMkSHo5AGchAdRRgB3jEDutb5UcWUi/JWJkVVCUcH8=", "post"=>{"name"=>"百度也是这样的", "title"=>"不错的", "content"=>"还是可以的"}, "commit"=>"Save"}
+  MOPED: 127.0.0.1:27017 INSERT       database=lbyronlee_news_development collection=posts documents=[{"_id"=>"51e4ed2f1229bcc61c000002", "name"=>"百度也是这样的", "title"=>"不错的", "content"=>"还是可以的"}] flags=[] (0.2344ms)
+Redirected to http://localhost:3000/posts/51e4ed2f1229bcc61c000002
+Completed 302 Found in 4ms
+
+
+Started GET "/posts/51e4ed2f1229bcc61c000002" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"51e4ed2f1229bcc61c000002"}
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={"_id"=>"51e4ed2f1229bcc61c000002"} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.5913ms)
+  Rendered posts/show.html.slim within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:23 +0000
+
+
+Started GET "/posts/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:50:24 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:50:28 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9403ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3366ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_70110512033340 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_70110512033340 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (6.9ms)
+Completed 200 OK in 20ms (Views: 19.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4654ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_34309700 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_34309700 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 15ms (Views: 14.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:31 +0000
+
+
+Started GET "/posts/51e4ed2f1229bcc61c000002/edit" for 127.0.0.1 at 2013-07-16 06:50:33 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"51e4ed2f1229bcc61c000002"}
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={"_id"=>"51e4ed2f1229bcc61c000002"} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4766ms)
+  Rendered posts/_form.html.slim (3.8ms)
+  Rendered posts/edit.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 92ms (Views: 90.5ms)
+
+
+Started GET "/posts/51e4ed2f1229bcc61c000002/assets/favicon.png" for 127.0.0.1 at 2013-07-16 06:50:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/posts/51e4ed2f1229bcc61c000002/assets/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/simlegate/.rvm/rubies/ruby-2.0.0-rc1/lib/ruby/2.0.0/webrick/server.rb:226:in `block in start_thread'
+
+
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/simlegate/.rvm/gems/ruby-2.0.0-rc1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.5226ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_34309700 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim___976613327488056078_34309700 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (3.9ms)
+Completed 200 OK in 18ms (Views: 16.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:50:42 +0000
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9842ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.5236ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (24.5ms)
+Completed 200 OK in 303ms (Views: 251.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:18 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:52:19 +0000
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (3.0463ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.3994ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (8.5ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:36 +0000
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9811ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4537ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 22ms (Views: 20.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:55:38 +0000
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=lbyronlee_news_development collection=posts selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.4787ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_posts_index_html_slim__4105316939425741952_43935440 at /home/simlegate/lbyronlee/app/views/posts/index.html.slim:19)
+  Rendered posts/index.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 16ms (Views: 15.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 06:56:01 +0000
