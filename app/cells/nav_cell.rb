@@ -1,6 +1,7 @@
 class NavCell < Cell::Rails
 
   def slide_left
+    
     render
   end
 
