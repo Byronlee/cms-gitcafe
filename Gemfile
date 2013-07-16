@@ -45,3 +45,5 @@ gem 'settingslogic'
 gem 'devise'
 gem 'simple_form'
 gem 'cells'
+
+gem 'mdeditor_rails', github: 'Byronlee/mdeditor_rails'

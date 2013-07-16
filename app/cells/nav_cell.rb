@@ -10,4 +10,7 @@ class NavCell < Cell::Rails
     render
   end
 
+  def share
+    render
+  end
 end

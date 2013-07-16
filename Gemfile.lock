@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/Byronlee/mdeditor_rails.git
+  revision: d0efbfea1789c8170f089a23914ef7d0259f6ce0
+  specs:
+    mdeditor_rails (0.0.1)
+      jquery-rails
+      rails
+      twitter-bootstrap-rails
+
+GIT
   remote: git://github.com/mongoid/mongoid.git
   revision: cb541fa1fd7cf9ab0a725c757490d0ac435a79f7
   specs:
@@ -253,6 +262,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   less-rails
+  mdeditor_rails!
   mongoid!
   rails (= 4.0.0)
   railties
