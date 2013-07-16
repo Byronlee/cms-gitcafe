@@ -20,7 +20,9 @@
 `cd lbyronlee`
 
 安装依赖包：
+
 `bundle install`
 
-启动项目
+启动项目:
+
 `rails s`
