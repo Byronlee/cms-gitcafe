@@ -7,5 +7,13 @@
 
 
 body{
-    background-image: url('/assets/bg.png');
+  /*  background-image: url('/assets/bg.png');*/
+    background-color:#fff
+}
+
+.icon{
+    background-image: url("/assets/imge_source.png");
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
 }

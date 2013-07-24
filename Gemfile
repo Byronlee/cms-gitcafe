@@ -11,7 +11,7 @@ group :test do
   gem 'rspec-rails'
   gem 'spork'
   gem 'database_cleaner'
-  gem 'factory_girl_rails', :require => false
+  gem 'factory_girl_rails', :require => true
   gem "capybara"
   gem "launchy"
   gem 'guard-spork'

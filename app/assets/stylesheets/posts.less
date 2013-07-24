@@ -1,21 +1,88 @@
-div[class|=nav-slide]{
-  position: absolute;
-  width: 15%;
-  height: 100%;
-  background-color:#333;
-  &.nav-slide-left{
-  left:0
-  }
-  &.nav-slide-right{
-  left:85%;
-  }
+.nav-slide-left{
+    width: 25%;
+    background-image: url('/assets/bg.png');
+    position: fixed;
+    height: 100%;
+    .navbar-inner{
+	padding-left: 3px;
+	border-right-style: hidden;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	.avater{
+	    background: transparent;
+	    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	    background-color: #423e3e;
+	    padding: 4px 12px;
+	    font-size: 14px;
+	    line-height: 20px;
+	    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	    border: 1px solid #423e3e;
+	    border-radius: 4px;
+	    color: #666;
+
+	}
+	.title{
+	    padding: 12px 0 0 10px;
+	    font-size: 19px;
+	    color: #bbb;
+	    float: left;
+	    font-weight: bolder;
+	}
+	.search{
+	    float: right;
+	    padding: 13px 0 0 8px;
+	}
+    }
+    footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	border-top: 1px solid #dbdbdb;
+	.about{
+	    float: left;
+	    margin: 0 0 6px 11px;
+	    font-size: 20px;
+	    color: #aaa;}
+	.feedback{
+	    float: right;
+	    margin: 0 15px 6px 0;
+	    font-size: 20px;
+	    color: #aaa;}
+    }
+    ul.bar{
+	list-style: none;
+	margin: 0 0 10px 2px;
+	li a{
+	    &:hover{text-decoration: none;}
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    height: 36px;
+	    padding: 8px;
+	    padding-right: 12px;
+	    display: block;
+	    color: #423e3e;
+	    font-weight: bold;
+	    background: url("//wunderlist2.s3.amazonaws.com/69bc6e85b0b6ed2e8daa7eb717b9ac5360767655/images/textures/divider.png") center bottom repeat-x;
+	    .icon-align-justify,.icon-plus{color: #aaa;padding-right: 15px;};
+	    .icon-text-height{
+		float: right;
+		padding: 3px 12px 0 0;
+		color: #ccc;}
+	}
+    }
 }
 
+
+
 .container-fluid{
-  position: absolute;
-  width: 67%;
-  left:15%;
-  height: 100%;
+    position: absolute;
+    width: 75%;
+    left: 25%;
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
   .row-fluid{height:100%;}
   ul{
   
