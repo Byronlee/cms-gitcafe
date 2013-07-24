@@ -1,6 +1,6 @@
 form action="#{supports_path}" method="post" 
   input name="user" value="#{@user}" type="hidden"
   input name="post" value="#{@post}" type="hidden"
-  /button type="submit" 
+  button type="submit" 
     i class="icon-thumbs-up"
-    span "#{(@post.support.count)}"
+    span "#{(@post.supports.count)}"

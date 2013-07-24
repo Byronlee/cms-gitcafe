@@ -14,7 +14,9 @@ class NavCell < Cell::Rails
     render
   end
 
-  def share
+  def post_operate args
+    @current_user = args[:current_user]
+    @post = args[:post]
     render
   end
 end

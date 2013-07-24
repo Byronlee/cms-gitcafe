@@ -19,5 +19,6 @@ class User
   field :last_sign_in_ip,    :type => String
 
   has_many :posts  
-
+  has_many :supports
+  has_many :views
 end

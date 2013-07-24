@@ -17,6 +17,13 @@ GIT
       origin (~> 1.0)
       tzinfo (~> 0.3.22)
 
+GIT
+  remote: git://github.com/rails/pjax_rails.git
+  revision: 793c50ae604fe18552e4bd16a9272350e528383c
+  specs:
+    pjax_rails (0.3.4)
+      jquery-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -264,6 +271,7 @@ DEPENDENCIES
   less-rails
   mdeditor_rails!
   mongoid!
+  pjax_rails!
   rails (= 4.0.0)
   railties
   rspec-rails

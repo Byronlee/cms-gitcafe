@@ -1,0 +1,27 @@
+.jiathis_style
+  span 　
+  span style="float: left;"
+    = link_to raw("<i class='icon-comments'>(#{@post.comments.count})</i>"), edit_post_path(@post)
+    span &nbsp;&nbsp; &nbsp;&nbsp;
+    a href="" 
+      i.icon-user Byronlee
+    span &nbsp;&nbsp; &nbsp;&nbsp;
+    span style="color: #ccc;font-size: 12px;"
+      i.icon-time = @post.created_at
+      span　
+    /- if @post.user.eql? @current_user
+    - if @post
+      = link_to raw('<i class="icon-remove-sign"></i>'), @post, :confirm => '你确定要删除吗?', :method => :delete
+      span style="color: #ccc;"／
+      = link_to raw('<i class="icon-edit"></i>'), edit_post_path(@post)
+    span 　分享到：
+  span.jiathis_txt 
+    a class="jiathis_button_tools_1"
+    a class="jiathis_button_tools_2"
+    a class="jiathis_button_tools_3"
+    a class="jiathis_button_tools_4"
+    a href="http://www.jiathis.com/share?uid=1620430" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank" 更多        
+    a class="jiathis_counter_style"
+  script type="text/javascript"
+    var jiathis_config={data_track_clickback:'true'};
+  script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1620430" charset="utf-8"

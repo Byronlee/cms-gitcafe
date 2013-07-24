@@ -2,9 +2,14 @@
 class SupportsController < ApplicationController
 
   def create
-    if request.headers['X-PJAX']
-      render :layout => false
-    end
+    @post = Post.find(params[:post_id])
+    @post.supports.create(user: current_user)
+    redirect_to :back
+  end
+
+  def destroy
+    @post =Support.where(post_id: params[:id],user_id: current_user.id).delete
+    redirect_to :back
   end
 
 end

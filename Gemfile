@@ -5,6 +5,9 @@ gem 'rails', '4.0.0'
 gem "mongoid", 	github: 'mongoid/mongoid'
 gem "bson_ext"
 #gem 'jbuilder'
+gem 'turbolinks'
+gem 'pjax_rails' ,:github => "rails/pjax_rails"
+
 
 group :test do
   gem 'turn', :require => false

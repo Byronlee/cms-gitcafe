@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require jquery.pjax
 //= require turbolinks
 //= require mdeditor_rails
 //= require_tree .
+
+

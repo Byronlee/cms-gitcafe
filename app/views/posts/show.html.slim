@@ -1,14 +1,9 @@
-p#notice = notice
-
 article
   .header
     h1   = @post.title
     footer
-      = render_cell :nav , :share
+      = render_cell :nav , :post_operate ,post: @post,current_user: current_user
   div.content
     = @post.content
-
-  = link_to 'Edit/', edit_post_path(@post)
-  = link_to 'Back', posts_path
   hr
   .comments

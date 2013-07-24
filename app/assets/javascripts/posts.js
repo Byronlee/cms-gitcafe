@@ -1,4 +1,3 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
-
-$(document).pjax('a', '#pjax-container')
+$('a.js-pjax').pjax('#data-pjax-container', { timeout: null, error: function(xhr, err){
+     alert("失败")
+   }})
