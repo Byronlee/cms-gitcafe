@@ -1,0 +1,46 @@
+.nav-slide-left
+  .navbar
+    .navbar-inner
+      .container
+        .btn-group style="float: left;"
+          button.avater.dropdown-toggle data-toggle="dropdown"
+            i.icon-user
+          ul.dropdown-menu
+            li
+              a href="#" 基本信息
+            li.divider
+            li
+              a href="#" 关于GitCafe-CMS
+        strong.title 
+          span = @current_user.email
+          span 　
+          span
+            i.icon-bell-alt
+        strong.search
+          i.icon-search
+  ul.bar
+    li 
+      a href=""
+        i.icon-align-justify 
+        span  热门文章
+        i.icon-text-height
+    li 
+      a href=""
+        i.icon-align-justify
+        span  最新文章
+        i.icon-text-height
+    li 
+      a href="活跃会员"
+        i.icon-align-justify
+        span 活跃会员
+        i.icon-text-height
+    li 
+      a href="#{new_post_path}"
+        i.icon-plus 
+        span 发布新文章....
+        i.icon-text-height
+  footer
+    span.about
+      i.icon-exclamation-sign
+    span.feedback
+      i.icon-bullhorn

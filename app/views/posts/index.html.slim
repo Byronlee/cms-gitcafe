@@ -8,10 +8,9 @@
           = link_to post.title, post
           span.count
             span.view 171 人阅读
-            span.support
-              a href=""
-                i class="icon-thumbs-up"
-                span "(2)"
+            span.support id="pjax-container"
+              = render_cell :support ,:show,user: current_user,post: post
+
         small
           a href="/p/30/#respond" "discuss(3)"
           a href="/u/38" "Byronlee"

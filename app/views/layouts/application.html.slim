@@ -5,22 +5,18 @@ html
     meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
     link rel="shortcut icon" href="assets/favicon.png" 
     /title = t("system_name")  
-    title 信息发布系统
+    title GitCafe_CMS
     meta name="author" content="Byronlee"
     = stylesheet_link_tag  :application , :recursive => true
     = javascript_include_tag :application , :recursive => true
     = csrf_meta_tags
   body
-    = render_cell :nav ,:slide_left
+    - if user_signed_in?
+      = render_cell :nav ,:slide_left_sigined ,current_user: current_user
+    - else
+      = render_cell :nav ,:slide_left_unsigin
     .container-fluid
       .row-fluid
-        - unless notice.blank?
-          p class="notice"
-            = notice 
-        - unless alert.blank?
-          p class="alert"
-            = alert 
+        = render "common/notice"
         = yield
         /= render "common/footer"  
-    = render_cell :nav ,:slide_right
-    .navbar-inverse.navbar.navbar-fixed-top
