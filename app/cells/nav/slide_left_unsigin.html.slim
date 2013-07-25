@@ -2,17 +2,36 @@
   .navbar
     .navbar-inner
       .container
-        .btn-group
-          button.btn.dropdown-toggle data-toggle="dropdown"
-            img src="/assets/logo.png"
-          ul.dropdown-menu
-            li easdf
-
-  .avatar
-    img src="http://tp2.sinaimg.cn/1973129637/180/22846891360/1"
-  ul
-    li linews
-    li latest
-    li Leaders
-  buttom.btn.btn-large.btn-primary
-    = link_to 'New Post', new_post_path
+        .btn-group style="float: left;"
+          img style="width: 37px;height: 30px;" src="/assets/logo.png"
+        strong.title 
+          span GitCafe-CMS
+          span 　
+        strong.search
+          i.icon-search
+  .session_nav 
+    a href="/users/sign_up"
+      span 注册
+    a href="/users/sign_in"
+      span 登录
+  ul.bar
+    li 
+      a href="#{root_path}"
+        i.icon-align-justify 
+        span  热门文章
+        i.icon-text-height
+    li 
+      a href=""
+        i.icon-align-justify
+        span  最新文章
+        i.icon-text-height
+    li 
+      a href="活跃会员"
+        i.icon-align-justify
+        span 活跃会员
+        i.icon-text-height
+  footer
+    span.about
+      i.icon-exclamation-sign
+    span.feedback
+      i.icon-bullhorn

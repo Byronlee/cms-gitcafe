@@ -10,8 +10,13 @@
             span.view = post.views.count
             span.view 人阅读／
             span.support
-              = render_cell :support,:show ,user: current_user,post: post
-
+              - if user_signed_in?
+                = render_cell :support,:show ,user: current_user,post: post
+              - else
+                = render_cell :support,:show ,post: post
         footer
-          = render_cell :nav , :post_operate ,post: post,current_user: current_user
+          - if user_signed_in?
+            = render_cell :nav , :post_operate ,post: post,current_user: current_user
+          - else
+            = render_cell :nav , :post_operate ,post: post
 
