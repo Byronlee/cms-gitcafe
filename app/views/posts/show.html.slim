@@ -5,5 +5,9 @@ article
       = render_cell :nav , :post_operate ,post: @post,current_user: current_user
   div.content
     = @post.content
+    javascript:
+      var g_converter = new Markdown.Converter();
+      var g_md =$("article .content").html()
+      $("article .content").html(g_converter.makeHtml(g_md));
   hr
   .comments

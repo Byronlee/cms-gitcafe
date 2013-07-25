@@ -1,6 +1,8 @@
 - unless notice.blank?
-  p class="notice"
+  p.alert.alert-info class="notice"
+    a class="close" data-dismiss="alert" ×
     = notice 
 - unless alert.blank?
-  p class="alert"
+  p.alert.alert-info class="alert"
+    a class="close" data-dismiss="alert" ×
     = alert 

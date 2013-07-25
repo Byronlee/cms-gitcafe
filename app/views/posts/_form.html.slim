@@ -9,7 +9,10 @@
   .field    
     span.span1 style="line-height: 40px;"标题：
     .span11
-      = f.input :title,label: false
-    = f.input :content, as: :mdtext_area ,input_html: { rows: 10,label: false }
-  .actions = f.button :submit,input_html: { class: "btn btn-primary" }
+      = f.input :title,label: false,input_html: {class: "span5",required: "required" }
+    = f.input :content, as: :mdtext_area ,input_html: { rows: 10,label: false,required: "required" }
+    p 
+      span Markdown 
+      a href="http://wowubuntu.com/markdown/" target="_blank" 语法参考
+  .actions = f.button :submit,input_html: {class: "btn btn-primary" }
 

@@ -10,4 +10,9 @@ class Post
   has_many :supports
   has_many :comments
   has_many :views
+
+
+  def pv
+    views.count
+  end
 end
