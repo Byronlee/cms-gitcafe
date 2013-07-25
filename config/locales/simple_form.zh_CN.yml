@@ -1,0 +1,14 @@
+# encoding: utf-8
+zh_CN:
+  simple_form:
+     labels:
+       post:
+         new:
+           content: "文章内容：" 
+         edit:
+           content: "文章内容：" 
+  helpers:
+    submit:
+      post:
+        create: '确定创建'
+        update: '保存更新'

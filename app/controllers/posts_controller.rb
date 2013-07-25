@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
-
   before_filter :authenticate_user!, :only =>[:new, :create ,:edit,:update,:destroy]
 
   def index
@@ -22,7 +21,6 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
-
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: '文章创建成功！' }
@@ -58,8 +56,7 @@ class PostsController < ApplicationController
     def set_post
       @post = Post.find(params[:id])
     end
-
     def post_params
-      params.require(:post).permit(:name, :title, :content)
+      params.require(:post).permit(:title, :content)
     end
 end
