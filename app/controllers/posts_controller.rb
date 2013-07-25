@@ -2,9 +2,11 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
   before_filter :authenticate_user!, :only =>[:new, :create ,:edit,:update,:destroy]
+  before_filter :initiail_posts ,only: :index
 
-  def index
-    @posts = Post.all
+  def hot
+    @posts = Post.limit(50).sort_by(&:pv).reverse
+    render "index"
   end
 
   def show
@@ -19,37 +21,21 @@ class PostsController < ApplicationController
   def edit
   end
 
+  # todo 国际化
   def create
     @post = Post.new(post_params)
-    respond_to do |format|
-      if @post.save
-        format.html { redirect_to @post, notice: '文章创建成功！' }
-        format.json { render action: 'show', status: :created, location: @post }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
-      end
-    end
+    return redirect_to @post, notice: '文章创建成功！' if @post.save
+    render action: 'new'
   end
 
   def update
-    respond_to do |format|
-      if @post.update(post_params)
-        format.html { redirect_to @post, notice: '文章更新成功！' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
-      end
-    end
+    redirect_to @post, notice: '文章更新成功！' if @post.update(post_params)
+    render action: 'edit'
   end
 
   def destroy
     @post.destroy
-    respond_to do |format|
-      format.html { redirect_to posts_url }
-      format.json { head :no_content }
-    end
+    redirect_to posts_url
   end
 
   private
@@ -58,5 +44,9 @@ class PostsController < ApplicationController
     end
     def post_params
       params.require(:post).permit(:title, :content)
+    end
+
+    def initiail_posts
+      @posts = Post.limit(50).sort(created_at: -1)
     end
 end
