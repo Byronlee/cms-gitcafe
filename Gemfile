@@ -7,7 +7,7 @@ gem "bson_ext"
 #gem 'jbuilder'
 gem 'turbolinks'
 gem 'pjax_rails' ,:github => "rails/pjax_rails"
-
+gem 'mongoid_commentable',:path => "vendor/mongoid_commentable"
 
 group :test do
   gem 'turn', :require => false

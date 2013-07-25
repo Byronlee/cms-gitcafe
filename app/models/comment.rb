@@ -1,6 +1,13 @@
 class Comment
   include Mongoid::Document
   include Mongoid::Timestamps
+#  include Mongoid_Commentable::Comment
 
-  belongs_to :post
+  attr_accessor :text, :author
+
+  field :text, :type => String
+  field :author, :type => String
+
+
 end
+
