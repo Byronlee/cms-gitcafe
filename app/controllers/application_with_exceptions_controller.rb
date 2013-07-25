@@ -12,8 +12,8 @@ class  ApplicationWithExceptionsController < ActionController::Base
   # rescue_from CanCan::AccessDenied
   
   rescue_from Exception do | exception|
-    flash[:error]=  exception.message
-    render :error , :layout => false
+#    flash[:error]=  exception.message
+#   render :error , :layout => false
   end
   
 

@@ -5,12 +5,12 @@ class SupportsController < ApplicationController
   def create
     @post = Post.find(params[:post_id])
     @post.supports.create(user: current_user)
-    redirect_to :back
+    render "down" ,:layout => false
   end
 
   def destroy
     @post =Support.where(post_id: params[:id],user_id: current_user.id).delete
-    redirect_to :back
+    render "up", :layout => false
   end
 
 end
