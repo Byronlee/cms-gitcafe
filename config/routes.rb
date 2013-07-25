@@ -49,4 +49,6 @@ Lbyronlee::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  match '/:anything', to: "application_with_exceptions#routing_error", as: :error, via: :get, :constraints => {:anything => /.*/}
+
 end
